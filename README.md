@@ -53,22 +53,22 @@ This project is showcased primarily for what it represents :
 
 While the bot is no longer fully functional, during its active development phase it inculded :
 - **Extensive Command Architecture**<br>
-  -Admin and moderation systems<br>
-  -Utility, fun, game and information commands<br>
-  -Structurd categorized and permission handling<br>
+  - Admin and moderation systems<br>
+  - Utility, fun, game and information commands<br>
+  - Structurd categorized and permission handling<br>
 - **External API Integrations**<br>
-  -News, weather, jokes, memes<br>
-  -Image providers(unsplaash, pexels<br>
-  -Duolingo statistics and other dynamic data sources<br>
+  - News, weather, jokes, memes<br>
+  - Image providers(unsplaash, pexels<br>
+  - Duolingo statistics and other dynamic data sources<br>
 - **User Experience Feature**<br>
-  -Custom embeds and interactive components<br>
-  -Welcome Systems and varification flows<br>
-  -Server-specific configuration<br>
+  - Custom embeds and interactive components<br>
+  - Welcome Systems and varification flows<br>
+  - Server-specific configuration<br>
 - **Database-dirven Features**<br>
-  -AFK Training<br>
-  -Cooldown Mamagement<br>
-  -Nickname persistance<br>
-  -Sticky messages and server defences<br>
+  - AFK Training<br>
+  - Cooldown Mamagement<br>
+  - Nickname persistance<br>
+  - Sticky messages and server defences<br>
 
 These featured were designed to scale across servers and users with consistant behaviour .
   
