@@ -3,7 +3,7 @@
 # **Botix-s**
 ### An advanced, multi-purpose Discord Bot
 </div>
-
+  
 <div align="center">
 
   > ⚠️IMPORTANT
@@ -48,7 +48,7 @@ This project is showcased primarily for what it represents :
 
 <div align="center">
  
-# **⚙️System Capabilities (During Active Phase)**
+# **⚙️ System Capabilities (During Active Phase)**
 </div>
 
 While the bot is no longer fully functional, during its active development phase it inculded :
@@ -79,7 +79,7 @@ These featured were designed to scale across servers and users with consistant b
 
 Botix-s is archived by choices:
 
-It represents:
+- **It represents:**
 
 - an early but serious engineering effort,
 - proof of long-term commitment to a single project,
@@ -89,13 +89,13 @@ Rather than deleting , this repository is preserved as a **transport snapshot of
 
 <div align="center">
 
-# **📌Final Note**
+# **📌 Final Note**
 </div>
 
 Botix-s is not mean to compete with other discord bots.
 It exists to show **where my engineering mindset was forming**, long before my current projects.
 
-If u'r exploring  this repository, view it as a **portfolio case study**, not a ready-to-use tool.
+If you are exploring  this repository, view it as a **portfolio case study**, not a ready-to-use tool.
 
 ---
 
