@@ -53,9 +53,9 @@ This project is showcased primarily for what it represents :
 
 While the bot is no longer fully functional, during its active development phase it inculded :
 - **Extensive Command Architecture**
-  - Admin and moderation systems<br>
-  - Utility, fun, game and information commands<br>
-  - Structurd categorized and permission handling<br>
+  - Admin and moderation systems
+  - Utility, fun, game and information commands
+  - Structurd categorized and permission handling
 - **External API Integrations**<br>
   - News, weather, jokes, memes<br>
   - Image providers(unsplaash, pexels<br>
