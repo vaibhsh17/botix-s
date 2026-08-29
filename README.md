@@ -52,7 +52,7 @@ This project is showcased primarily for what it represents :
 </div>
 
 While the bot is no longer fully functional, during its active development phase it inculded :
-- **Extensive Command Architecture**<br>
+- **Extensive Command Architecture**
   - Admin and moderation systems<br>
   - Utility, fun, game and information commands<br>
   - Structurd categorized and permission handling<br>
