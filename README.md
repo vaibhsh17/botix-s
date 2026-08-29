@@ -23,11 +23,11 @@ That said:
 **Botix-s** is an advanced, large scale, multi-purpose Discord bot.<br>
 It was developed as a long term side project during my early programming years,driven by curiosity and the ambition to build a scalable feature-rich system rather than a minimal bot.
 
-The focus is not only for adding commands, but on:<br>
-- designing modular systems,<br>
-- managing persistnt data,<br>
-- integrating external `API,<br>
-- and maintaining a large codebase over time.<br>
+The focus is not only for adding commands, but on:
+- designing modular systems,
+- managing persistnt data,
+- integrating external `API,
+- and maintaining a large codebase over time.
 
 This repository reflects the **structure, clarity and architectural thinking** I practiced early in my journey.
 
