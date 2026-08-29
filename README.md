@@ -37,13 +37,13 @@ This repository reflects the **structure, clarity and architectural thinking** I
 </div>
 
 This project is showcased primarily for what it represents :
-- **System Design & Modularity**<br>
+- **System Design & Modularity**
   Clean separation of concerns, organized command handling, reuable utilities and scalable structure.
-- **Asynchronous Programming & API Integration**<br>
+- **Asynchronous Programming & API Integration**
   Handling multiple external APIs, async workflow and real-time discord instructions.
-- **Persistance & State Management**<br>
+- **Persistance & State Management**
   MongoDB-backed data handling for server level and user-level features.
-- **Long-Term Project Ownership**<br>
+- **Long-Term Project Ownership**
   Maintained, refactored and envolved over a long span rathre than built once and abandoned.
 
 <div align="center">
