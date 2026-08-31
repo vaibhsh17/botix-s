@@ -92,10 +92,10 @@ Rather than deleting , this repository is preserved as a **transport snapshot of
 # **📌 Final Note**
 </div>
 
-Botix-s is not mean to compete with other discord bots.
+- Botix-s is not mean to compete with other discord bots.
 It exists to show **where my engineering mindset was forming**, long before my current projects.
 
-If you are exploring  this repository, view it as a **portfolio case study**, not a ready-to-use tool.
+- If you are exploring  this repository, view it as a **portfolio case study**, not a ready-to-use tool.
 
 ---
 
