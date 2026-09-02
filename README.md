@@ -10,6 +10,7 @@
 > 
 > Botix-s is an archived project. It is intentionally preserved as a portfolio artifact to showcase early engineering ambition, system design, and long-term project structuring.
 
+> A open-source chatbot, no AI
 </div>
 
 That said:
