@@ -120,7 +120,7 @@ Botix-S/
 - **Optional AI Integration** - Add AI-based responses as a future fallback system.
 - **Live Configuration Updates** - Update chatbot responses without manually changing project files.
 
-<div slign="center">
+<div align="center">
 
 ## 🧭 Why Botix-S
 </div>
