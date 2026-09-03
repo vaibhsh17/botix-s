@@ -8,11 +8,11 @@
 ![Version](https://img.shields.io/badge/Version-0.1.0-green)
 </div>
 
-**Botix-S is a simple, customizable chatbot project designed to make automated question-and-answer interactions easy to  create and manage.
+- **Botix-S** is a simple, customizable chatbot project designed to make automated question-and-answer interactions easy to  create and manage.
 
-Instead of writing seperate chatbot logic for every response, Botix-S stores questions and answers in a structured JSON file and automatically matches user message with the available responses.
+- Instead of writing seperate chatbot logic for every response, Botix-S stores questions and answers in a structured JSON file and automatically matches user message with the available responses.
 
-The project is being  developed with a long-term goal of becoming a **no-code chatbot platform**, where users can create and customize their own bots without manually editing code or configuration files.
+- The project is being  developed with a long-term goal of becoming a **no-code chatbot platform**, where users can create and customize their own bots without manually editing code or configuration files.
 
 <div align="center">
 
