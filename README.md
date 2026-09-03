@@ -16,7 +16,7 @@
 
 <div align="center">
 
-## 🚀 **Current Progress**
+## 🚀 Current Progress
 </div>
 
 The current version of Botix-S focuses on building the **core chatbot foundation** and keeping the project simple, modular and easy to extand.
@@ -34,7 +34,7 @@ The current version of Botix-S focuses on building the **core chatbot foundation
 
 <div align="center">
 
-## ⚙️ **How it works**g
+## ⚙️ How it works
 </div>
 
 Botix-S follows a simple response-based architecture.
@@ -60,7 +60,7 @@ data/response.json
 
 <div align="center">
 
-## **💬 Example**
+## 💬 Example
 </div>
 
 ```
@@ -126,9 +126,9 @@ Botix-S/
 </div>
 
 **Botix-S is built around a simple idea:**
+     
      ```
      Chatbot should be easy to create, customize and understand
-     ```
 
 <div align="center">
 
@@ -140,7 +140,7 @@ The core response based chatbot  structure is in place. Discord deployment and n
 
 <div align="center">
 
-## 👨‍💻 Developer
+## 👨‍💻 Development
 </div>
 
 - Developed as a learning and development project focus on:
