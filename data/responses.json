@@ -1,0 +1,28 @@
+{
+    "responses": [
+        {
+            "question": "hello",
+            "answer": "hello! 👋 I'm Botix-S."
+        },
+        {
+            "question": "hi",
+            "answer": "Hi! How can I help you?"
+        },
+        {
+            "question": "how are you?",
+            "answer": "I'm doing grateat! 😄"
+        },
+        {
+            "question": "what is discord",
+            "answer": "Discord is a platform for chatting and communities."
+        },
+        {
+            "question": "what is botix-s",
+            "answer": "Botix-S is a no-code Discord chatbot project."
+        },
+        {
+            "question": "bye",
+            "answer": "Goodbye! 👋"
+        }
+    ]
+}
