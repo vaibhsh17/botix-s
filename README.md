@@ -1,7 +1,12 @@
 <div align="center">
 
-# **Botix-s**
-### An advanced, multi-purpose Discord Bot
+# **Botix-S**
+### A simple, customizable, no-code chatbot system.
+
+![Progress](https://img.shields.io/badge/Progress-In%20Development-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![Version](https://img.shields.io/badge/Version-0.1.0-green)
+
 </div>
   
 <div align="center">
