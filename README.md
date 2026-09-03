@@ -105,7 +105,47 @@ Botix-S/
 
 <div align = "center">
 
-## Vision
+## 🌱 Vision
 </div>
 
-Botix-S aims to grow from a simple response-based chatbot into an **easy-to-use no-code chatbot builder.
+- Botix-S aims to grow from a simple response-based chatbot into an **easy-to-use no-code chatbot builder.
+
+**Upcoming Goals:**
+
+- **Web Dashboard** - Create and manage bots through a simple interface.
+- **Visual Q&A Management** - Add, edit and rempve questions manually editing JSON files.
+- **Discord Integrarion** - Connected created bots withDiscord servers.
+- **Automatic Configuration** - Manage bot responses through the dashboard.
+- **Muti-Bot Support** - Allow users to manage multiple bots.
+- **Optional AI Integration** - Add AI-based responses as a future fallback system.
+- **Live Configuration Updates** - Update chatbot responses without manually changing project files.
+
+<div slign="center">
+
+## 🧭 Why Botix-S
+</div>
+
+Botix-S is built around a simple idea:
+     ```
+     **Chatbot should be easy to create, customize and understand**
+     ```
+
+<div align="center">
+
+## 📌 Project Status
+</div>
+
+**Botix-S** is currently under development.
+The core response based chatbot  structure is in place. Discord deployment and no-code dashboard are part of the next stages of development.
+
+<div align="center">
+
+## 👨‍💻 Developer
+</div>
+
+- Developed as a learning and development project focus on:
+  - Python
+  - Chatbot develpoment
+  - JSON data handling
+  - Discord bot develpoment
+  - No-Code platform structure
