@@ -6,103 +6,106 @@
 ![Progress](https://img.shields.io/badge/Progress-In%20Development-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Version](https://img.shields.io/badge/Version-0.1.0-green)
-
-</div>
-  
-<div align="center">
-
-  > ⚠️IMPORTANT
-> 
-> Botix-s is an archived project. It is intentionally preserved as a portfolio artifact to showcase early engineering ambition, system design, and long-term project structuring.
-
-> A open-source chatbot, no AI
 </div>
 
-That said:
-- The project **can still be executed**
+**Botix-S is a simple, customizable chatbot project designed to make automated question-and-answer interactions easy to  create and manage.
+
+Instead of writing seperate chatbot logic for every response, Botix-S stores questions and answers in a structured JSON file and automatically matches user message with the available responses.
+
+The project is being  developed with a long-term goal of becoming a **no-code chatbot platform**, where users can create and customize their own bots without manually editing code or configuration files.
 
 <div align="center">
 
-# **🧠 About the Project**
+## 🚀 **Current Progress**
 </div>
 
-**Botix-s** is an advanced, large scale, multi-purpose Discord bot.<br>
-It was developed as a long term side project during my early programming years,driven by curiosity and the ambition to build a scalable feature-rich system rather than a minimal bot.
+The current version of Botix-S focuses on building the **core chatbot foundation** and keeping the project simple, modular and easy to extand.
 
-The focus is not only for adding commands, but on:
-- designing modular systems,
-- managing persistnt data,
-- integrating external `API,
-- and maintaining a large codebase over time.
+**implemented so far:**
 
-This repository reflects the **structure, clarity and architectural thinking** I practiced early in my journey.
-
-<div align="center">
-    
-# **🧩 What this project Demonstrate**
-</div>
-
-This project is showcased primarily for what it represents :
-- **System Design & Modularity**<br>
-  Clean separation of concerns, organized command handling, reuable utilities and scalable structure.
-- **Asynchronous Programming & API Integration**<br>
-  Handling multiple external APIs, async workflow and real-time discord instructions.
-- **Persistance & State Management**<br>
-  MongoDB-backed data handling for server level and user-level features.
-- **Long-Term Project Ownership**<br>
-  Maintained, refactored and envolved over a long span rathre than built once and abandoned.
-
-<div align="center">
- 
-# **⚙️ System Capabilities (During Active Phase)**
-</div>
-
-While the bot is no longer fully functional, during its active development phase it inculded :
-- **Extensive Command Architecture**
-  - Admin and moderation systems
-  - Utility, fun, game and information commands
-  - Structurd categorized and permission handling
-- **External API Integrations**
-  - News, weather, jokes, memes
-  - Image providers(unsplaash, pexels
-  - Duolingo statistics and other dynamic data sources
-- **User Experience Feature**
-  - Custom embeds and interactive components
-  - Welcome Systems and varification flows
-  - Server-specific configuration
-- **Database-dirven Features**
-  - AFK Training
-  - Cooldown Mamagement
-  - Nickname persistance
-  - Sticky messages and server defences
-
-These featured were designed to scale across servers and users with consistant behaviour .
-  
-<div align="center">
-
- # **🧭 Why Archived & Public**
-</div>
-
-Botix-s is archived by choices:
-
-- **It represents:**
-
-- an early but serious engineering effort,
-- proof of long-term commitment to a single project,
-- and the foundation that later projects build upon.
-
-Rather than deleting , this repository is preserved as a **transport snapshot of growth**.
+- Python-based chatbot logic.
+- Question-and-answer response system.
+- JSON based response storage.
+- Automatic message matching.
+- Modular project structure.
+- Enviourment variable support using `.env`.
+- Dependency management through `requirements.txt`.
+- Github projrct workflow.
 
 <div align="center">
 
-# **📌 Final Note**
+## ⚙️ **How it works**g
 </div>
 
-- Botix-s is not mean to compete with other discord bots.
-It exists to show **where my engineering mindset was forming**, long before my current projects.
+Botix-S follows a simple response-based architecture.
 
-- If you are exploring  this repository, view it as a **portfolio case study**, not a ready-to-use tool.
+```text
+User Message
+     ↓
+  Botix-S
+     ↓
+responses.json
+     ↓
+Question Matching
+     ↓
+  Bot Response
+```
 
----
+Question and their corresponding answers are stored in:
 
-*Archived, preserved and acknowledged - not abandoned.*
+```
+data/response.json
+```
+> User sends a message, Botix-S checks the stored questions and returns the corresponding answer when a match is found.
+
+<div align="center">
+
+## **💬 Example**
+</div>
+
+```
+user:
+what is botix-s
+
+Botix-S:
+Botix-S is a no-code Discord chatbot project.
+```
+
+<div align="center">
+
+##  📁 Project Structure
+</div>
+
+```
+Botix-S/
+|
+├── data/
+|   └──responses.json
+|
+├──sre/
+|    └──bot.py
+|
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+└──CONTRIBUTORS.md
+```
+
+<div align="center">
+
+## 🛠️ Technologies Used
+</div>
+
+- **Python** - Core Programming Language
+- **discord.py** - Discord bot functionally.
+- **JSON** - Storing chatbot questions and responses.
+- **Python-dotenv** - Managing enviourment variables.
+- **GitHub** - Version controll collaboration.
+
+<div align = "center">
+
+## Vision
+</div>
+
+Botix-S aims to grow from a simple response-based chatbot into an **easy-to-use no-code chatbot builder.
