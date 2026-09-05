@@ -129,7 +129,6 @@ Botix-S/
      
      ```
      Chatbot should be easy to create, customize and understand.
-     ```
 
 <div align="center">
 
