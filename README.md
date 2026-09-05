@@ -89,7 +89,7 @@ Botix-S/
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
-└──CONTRIBUTORS.md
+└── CONTRIBUTORS.md
 ```
 
 <div align="center">
