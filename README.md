@@ -126,6 +126,7 @@ Botix-S/
 </div>
 
 **Botix-S is built around a simple idea:**
+
      ```
      Chatbot should be easy to create, customize and understand.
      ```
