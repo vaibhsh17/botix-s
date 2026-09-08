@@ -25,10 +25,11 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    user_message = message.context.lower()
+    print("Message recieved:", message.content)
+    user_message = message.content.lower()
 
-    for item in data["resposes"]:
-        if user_message == item["question"].lower():
+    for item in data["responses"]:
+        if user_message in item["question"].lower() or item["question"].lower() in user_message:
             await message.channel.send(item["answer"])
             return
 
