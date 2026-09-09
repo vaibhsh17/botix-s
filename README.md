@@ -409,13 +409,5 @@ responses, easier configuration, and more advanced chatbot features.
 
 <div align="center">
 
-## ⭐ **Support Botix-S**
-</div>
-
-If you find **Botix-S** interesting, useful, or helpful for learning,
-consider giving the repository a ⭐ on GitHub.-
-
-<div align="center">
-
 ### **Botix-S — Simple logic. Automated responses. Built to grow.**
 </div>
