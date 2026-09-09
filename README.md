@@ -1,3 +1,5 @@
+<div align="center">
+
 # **Botix-S**
 ### Simple, customizable, and easy-to-use Discord chatbot.
 
@@ -6,6 +8,7 @@
 ![Version](https://img.shields.io/badge/Version-0.1.0-orange)
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 ![Discord](https://img.shields.io/badge/Platform-Discord-5865F2)
+</div>
 
 
 **Botix-S** is a simple, response-based Discord chatbot built with
@@ -23,8 +26,10 @@ The project is designed as a clean and beginner-friendly foundation for
 learning **Discord bot development, message handling, JSON data
 management, environment variables, and automation**.
 
+<div align="center">
 
 ## 🚀 **Current Progress**
+</div>
 
 The current stage of Botix-S focuses on building and testing the
 **core Discord chatbot system** before moving toward more advanced
@@ -42,8 +47,10 @@ features.
 - 🌐 Successful integration with a Discord server.
 - 🛠️ Basic Git and GitHub project workflow.
 
+<div align="center">
 
 ## ⚙️ **How Botix-S Works**
+</div>
 
 Botix-S follows a simple response-based architecture:
 
@@ -156,8 +163,10 @@ discord.py
 python-dotenv
 ```
 
+<div align="center">
 
 ## ✨ **Features**
+</div>
 
 - 🤖 **Discord Integration** — Runs as a real Discord bot.
 - 💬 **Automated Responses** — Responds to predefined questions.
@@ -170,9 +179,10 @@ python-dotenv
 - 🧩 **Simple Architecture** — Easy to understand, modify, and extend.
 - 🐍 **Python Powered** — Built using Python and `discord.py`.
 
-
+<div align="center">
 
 ## 📝 **Adding Questions & Answers**
+</div>
 
 Botix-S can be customized by editing:
 
@@ -188,10 +198,6 @@ Add a new question and answer like this:
     "answer": "Python is a popular programming language."
 }
 ```
-
-After saving the file, restart the bot so the updated response data is
-loaded.
-
 
 
 ## 🔧 **Setup & Installation**
@@ -251,8 +257,10 @@ When the bot successfully connects to Discord, you should see:
 Botix-S is online as Botix-S#7076
 ```
 
+<div align="center">
 
 ## 🔐 **Discord Configuration**
+</div>
 
 Botix-S requires the appropriate Discord configuration to receive and
 respond to messages.
@@ -267,8 +275,10 @@ The bot uses:
 The Message Content Intent allows Botix-S to receive the message content
 required for the response-matching system.
 
+<div align="center">
 
 ## 🛠️ **Technologies Used**
+</div>
 
 | Technology | Purpose |
 |------------|---------|
@@ -276,12 +286,13 @@ required for the response-matching system.
 | discord.py | Discord bot development |
 | JSON | Question and answer storage |
 | python-dotenv | Environment variable management |
-| Git | Version control |
 | GitHub | Repository hosting |
 | Discord API | Bot communication |
 
+<div align="center">
 
 ## 📌 **Current Limitations**
+</div>
 
 Botix-S is intentionally simple in its current version.
 
@@ -297,10 +308,10 @@ At the moment:
 These limitations are part of the current development stage and provide
 a foundation for future improvements.
 
-
+<div align="center">
 
 ## 🌱 **Vision & Next Steps**
-
+</div>
 
 Botix-S aims to evolve from a basic response-based Discord bot into a
 more flexible and user-friendly chatbot system.
@@ -320,8 +331,10 @@ more flexible and user-friendly chatbot system.
   computer.
 - 📊 **Bot Analytics** — Track interactions and usage statistics.
 
+<div align="center">
 
 ## 📘 **About This Version**
+</div>
 
 > **v0.1.0 - Working Discord Bot**
 
@@ -335,8 +348,10 @@ responses.
 The next stage will focus on making the response system smarter and
 easier to manage.
 
+<div align="center">
 
 ## 🧭 **Why Botix-S**
+</div>
 
 Botix-S is built around a simple idea:
 
@@ -362,8 +377,10 @@ Automated Responses
 ```
 
 
+<div align=""center>
 
 ## 👨‍💻 **The Developer**
+</div>
 
 **Vaibhav**
 
@@ -375,11 +392,12 @@ exploring:
 - JSON data handling
 - API-based applications
 - Environment variable management
-- Git & GitHub
 - Chatbot architecture
 
+<div align="center">
 
 ## 📈 **Project Status**
+</div>
 
 🟢 **Working — v0.1.0**
 
@@ -389,13 +407,15 @@ can receive and respond to predefined user messages.
 The project is actively being improved with the goal of adding smarter
 responses, easier configuration, and more advanced chatbot features.
 
-
+<div align="center">
 
 ## ⭐ **Support Botix-S**
-
+</div>
 
 If you find **Botix-S** interesting, useful, or helpful for learning,
-consider giving the repository a ⭐ on GitHub.
+consider giving the repository a ⭐ on GitHub.-
 
+<div align="center">
 
-### **Botix-S — Simple logic. Automated responses. Built to grow. 🤖**
+### **Botix-S — Simple logic. Automated responses. Built to grow.**
+</div>
