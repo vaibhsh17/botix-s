@@ -1,50 +1,58 @@
-<div align="center">
-
 # **Botix-S**
-### A Simple and Customizable Discord Chatbot.
+### Simple, customizable, and easy-to-use Discord chatbot.
 
 ![Progress](https://img.shields.io/badge/Progress-Working-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Discord.py](https://img.shields.io/badge/discord.py-Library-purple)
+![Documentation Status](https://img.shields.io/badge/Docs-Maintained-blue)
 ![Version](https://img.shields.io/badge/Version-0.1.0-orange)
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![Discord](https://img.shields.io/badge/Platform-Discord-5865F2)
 
-</div>
 
-**Botix-S** is a simple, response-based **Discord chatbot** built with
-Python and `discord.py`.
+**Botix-S** is a simple, response-based Discord chatbot built with
+**Python** and **discord.py**.
 
-The bot automatically reads user messages, checks them against a
-predefined collection of questions stored in a JSON file, and sends the
-corresponding answer when a matching question is found.
+It allows a Discord server to have automated question-and-answer
+responses using a predefined collection of questions and answers stored
+in a JSON file.
 
-The main purpose of Botix-S is to provide a clean and beginner-friendly
-foundation for understanding **Discord bots, message handling, JSON
-data storage, environment variables, and Python-based automation**.
+Instead of writing a new piece of chatbot logic for every response,
+Botix-S reads the available questions from `responses.json`, matches
+the user's message, and sends the corresponding answer automatically.
 
----
+The project is designed as a clean and beginner-friendly foundation for
+learning **Discord bot development, message handling, JSON data
+management, environment variables, and automation**.
 
-<div align="center">
 
-# 🚀 **What is Botix-S?**
-</div>
+## 🚀 **Current Progress**
 
-Botix-S is a basic Discord Chatbot that works using a **question-and-answer response system**.
+The current stage of Botix-S focuses on building and testing the
+**core Discord chatbot system** before moving toward more advanced
+features.
 
-Instead of using AI or Machine Learning, the bot uses predefined questions and answers stored in:
+**Implemented so far :**
+
+- 🤖 Discord bot successfully connected using `discord.py`.
+- 💬 Automatic message receiving and response handling.
+- 📄 JSON-based question and answer storage.
+- 🔎 Automatic matching between user messages and stored questions.
+- 🧩 Simple and modular Python project structure.
+- 🔐 Secure bot token handling using environment variables.
+- 📦 Dependency management using `requirements.txt`.
+- 🌐 Successful integration with a Discord server.
+- 🛠️ Basic Git and GitHub project workflow.
+
+
+## ⚙️ **How Botix-S Works**
+
+Botix-S follows a simple response-based architecture:
+
 ```text
-data/responses.json
-```
-
-When the user sends a message in a Discord channel, Botix-S checks the message against the stored questions.
-If a matching question is found the bot sends the associated answer.
-
-Basic Flow
-```
 Discord User
       ↓
-  User Message
+ User Message
       ↓
-    Botix-S
+   Botix-S
       ↓
 responses.json
       ↓
@@ -53,56 +61,36 @@ Question Matching
    Bot Reply
 ```
 
-<div align="center">
+When a user sends a message, Botix-S receives the message and compares
+it with the questions stored inside `data/responses.json`.
 
-# ✨ **Features**
-</div>
+If a matching question is found, the corresponding answer is sent back
+to the Discord channel.
 
-- Discord bot integration using discord.py
-- Automated question-and-answer responses
-- JSON-based response storage
-- Message matching system
-- Python-based implementation
-- Secure token management using .env
-- Simple and modular project structure
-- Easy to customize and extend
+### Example
 
-<div align="center">
-
-# 🧠**How Does It Work?**
-</div>
-
-Botix-S listens for message sent in Discord.
-
-For every recieved message:
-
-- The message content is converted to lowercase.
-- The bot checks the stored question in responses.json.
-- If a matching question is found, its answer is sent to the discord channel.
-- If no-matching questions exist, the bot currently does not return a predefined response.
-
-**For Example**
-```
-user:
+```text
+User:
 hello
 
 Botix-S:
 hello! 👋 I'm Botix-S.
 ```
-```
-user:
+
+Another example:
+
+```text
+User:
 what is discord
 
 Botix-S:
 Discord is a platform for chatting and communities.
 ```
 
-<div align="center">
 
-# 📂**Project Structure**
-</div>
+## 📂 **Project Structure**
 
-```
+```text
 Botix-S/
 │
 ├── data/
@@ -118,66 +106,296 @@ Botix-S/
 └── CONTRIBUTORS.md
 ```
 
-<div align="center">
+### `src/bot.py`
 
-# ⚙️ **Setup & Installation**
-</div>
+The main Python file responsible for:
 
-Clone the Repository:
+- Connecting the bot to Discord.
+- Receiving user messages.
+- Reading response data.
+- Matching questions.
+- Sending automated replies.
+
+### `data/responses.json`
+
+Contains the predefined questions and answers used by Botix-S.
+
+Example:
+
+```json
+{
+    "responses": [
+        {
+            "question": "hello",
+            "answer": "hello! 👋 I'm Botix-S."
+        },
+        {
+            "question": "hi",
+            "answer": "Hi! How can I help you?"
+        }
+    ]
+}
 ```
+
+### `.env`
+
+Used to store sensitive configuration such as the Discord bot token.
+
+```env
+DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
+```
+
+> Never publish your real Discord bot token on GitHub.
+
+### `requirements.txt`
+
+Contains the dependencies required by the project:
+
+```text
+discord.py
+python-dotenv
+```
+
+
+## ✨ **Features**
+
+- 🤖 **Discord Integration** — Runs as a real Discord bot.
+- 💬 **Automated Responses** — Responds to predefined questions.
+- 📄 **JSON Response System** — Keeps questions and answers in a simple
+  editable format.
+- 🔎 **Message Matching** — Checks incoming messages against stored
+  questions.
+- 🔐 **Environment Variables** — Keeps sensitive credentials outside the
+  source code.
+- 🧩 **Simple Architecture** — Easy to understand, modify, and extend.
+- 🐍 **Python Powered** — Built using Python and `discord.py`.
+
+
+
+## 📝 **Adding Questions & Answers**
+
+Botix-S can be customized by editing:
+
+```text
+data/responses.json
+```
+
+Add a new question and answer like this:
+
+```json
+{
+    "question": "what is python",
+    "answer": "Python is a popular programming language."
+}
+```
+
+After saving the file, restart the bot so the updated response data is
+loaded.
+
+
+
+## 🔧 **Setup & Installation**
+
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/vaibhsh17/botix-s.git
 ```
 
-Move into the project directory:
-```
+### 2. Open the Project
+
+```bash
 cd botix-s
 ```
 
-Create virtual Enviourment:
-```
+### 3. Create a Virtual Environment
+
+```bash
 python -m venv .venv
 ```
 
-Install Dependencies:
+### 4. Activate the Virtual Environment
+
+For Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
 ```
+
+### 5. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-<div align="center">
+### 6. Configure Environment Variables
 
-# 🔐**Discord Configuration**
-</div>
+Create a `.env` file in the project root:
 
-For Botix-S to recieve message content, the **Message Content Intent** must be enabled in the Discord Developer Portal.
+```env
+DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
+```
 
-The bot also needs permissions to:
+Replace the placeholder with your own Discord bot token.
 
-- View Channels
-- Send Messges
-- Read Message History
+### 7. Run Botix-S
 
-These permissions allows Botix-S to recieve and respond to message in the configured Discord server.
+```bash
+python src/bot.py
+```
 
-<div align="center">
+When the bot successfully connects to Discord, you should see:
 
-# 📌**Crrent Limitations**
-</div>
+```text
+Botix-S is online as Botix-S#7076
+```
 
-- Current Version of Botix-S is simple:
-    - Responses are predefined.
-    - Questions are manually stored in JSON.
-    - The bot does not generate AI-based answers.
-    - New responses require editing responses.json.
-    - The current matching system depends on the stored question text.
 
-- These limitations are part of the project's current stage and provide
+## 🔐 **Discord Configuration**
+
+Botix-S requires the appropriate Discord configuration to receive and
+respond to messages.
+
+The bot uses:
+
+- **Message Content Intent**
+- **View Channel**
+- **Send Messages**
+- **Read Message History**
+
+The Message Content Intent allows Botix-S to receive the message content
+required for the response-matching system.
+
+
+## 🛠️ **Technologies Used**
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core programming language |
+| discord.py | Discord bot development |
+| JSON | Question and answer storage |
+| python-dotenv | Environment variable management |
+| Git | Version control |
+| GitHub | Repository hosting |
+| Discord API | Bot communication |
+
+
+## 📌 **Current Limitations**
+
+Botix-S is intentionally simple in its current version.
+
+At the moment:
+
+- Responses are predefined.
+- Questions and answers are stored manually in JSON.
+- The bot does not generate AI-based answers.
+- Unknown questions do not yet have a dedicated fallback system.
+- The current matching system depends on the stored question text.
+- The bot needs to remain running on the host machine to stay online.
+
+These limitations are part of the current development stage and provide
 a foundation for future improvements.
 
-<div align="center">
 
-# 📈**Project Status**
-</div>
 
-🟢 Working — v0.1.0
+## 🌱 **Vision & Next Steps**
 
-The current version successfully connects to Discord, recieves user messages, matches predefined questions, and sends the curresponding responses.
+
+Botix-S aims to evolve from a basic response-based Discord bot into a
+more flexible and user-friendly chatbot system.
+
+**Upcoming goals :**
+
+- 💬 **Fallback Responses** — Provide a response for unknown questions.
+- 🧠 **Smarter Matching** — Improve how similar questions are recognized.
+- 🌐 **Web Dashboard** — Manage chatbot settings through a visual interface.
+- ➕ **No-Code Q&A Management** — Add and edit responses without manually
+  modifying JSON files.
+- 👥 **Multi-Bot Support** — Allow users to manage multiple chatbot
+  configurations.
+- 💾 **Automatic Configuration** — Manage response data automatically.
+- 🤖 **AI Integration** — Add optional AI-powered responses in the future.
+- ☁️ **Cloud Deployment** — Keep bots running without requiring a local
+  computer.
+- 📊 **Bot Analytics** — Track interactions and usage statistics.
+
+
+## 📘 **About This Version**
+
+> **v0.1.0 - Working Discord Bot**
+
+This version establishes the core Botix-S architecture and demonstrates
+a working Discord chatbot.
+
+The current release can connect to Discord, receive user messages,
+match predefined questions from `responses.json`, and send automated
+responses.
+
+The next stage will focus on making the response system smarter and
+easier to manage.
+
+
+## 🧭 **Why Botix-S**
+
+Botix-S is built around a simple idea:
+
+> **A chatbot should be easy to understand, customize, and extend.**
+
+The project focuses on keeping the core architecture simple while
+providing a foundation that can grow into a more advanced chatbot
+platform.
+
+Instead of starting with complex AI systems, Botix-S begins with the
+fundamentals:
+
+```text
+Python
+   ↓
+Discord API
+   ↓
+Message Handling
+   ↓
+JSON Data
+   ↓
+Automated Responses
+```
+
+
+
+## 👨‍💻 **The Developer**
+
+**Vaibhav**
+
+Botix-S is developed as a learning and development project focused on
+exploring:
+
+- Python programming
+- Discord bot development
+- JSON data handling
+- API-based applications
+- Environment variable management
+- Git & GitHub
+- Chatbot architecture
+
+
+## 📈 **Project Status**
+
+🟢 **Working — v0.1.0**
+
+The current version of Botix-S is successfully connected to Discord and
+can receive and respond to predefined user messages.
+
+The project is actively being improved with the goal of adding smarter
+responses, easier configuration, and more advanced chatbot features.
+
+
+
+## ⭐ **Support Botix-S**
+
+
+If you find **Botix-S** interesting, useful, or helpful for learning,
+consider giving the repository a ⭐ on GitHub.
+
+
+### **Botix-S — Simple logic. Automated responses. Built to grow. 🤖**
