@@ -303,14 +303,14 @@ Botix-S is intentionally simple in its current version.
 
 At the moment:
 
-- Responses are predefined.
-- Questions and answers are stored manually in JSON.
-- The bot does not generate AI-based answers.
-- Unknown questions do not yet have a dedicated fallback system.
-- The current matching system depends on the stored question text.
+- Responses are predefined,
+- Questions and answers are stored manually in JSON,
+- The bot does not generate AI-based answers,
+- Unknown questions do not yet have a dedicated fallback system,
+- The current matching system depends on the stored question text,
 - The bot needs to remain running on the host machine to stay online.
 
-These limitations are part of the current development stage and provide
+- These limitations are part of the current development stage and provide
 a foundation for future improvements.
 
 <div align="center">
@@ -406,10 +406,10 @@ exploring:
 
 🟢 **Working — v0.1.0**
 
-The current version of Botix-S is successfully connected to Discord and
+- The current version of Botix-S is successfully connected to Discord and
 can receive and respond to predefined user messages.
 
-The project is actively being improved with the goal of adding smarter
+- The project is actively being improved with the goal of adding smarter
 responses, easier configuration, and more advanced chatbot features.
 
 <div align="center">
