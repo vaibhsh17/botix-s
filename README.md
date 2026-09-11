@@ -282,6 +282,8 @@ required for the response-matching system.
 ## 🛠️ **Technologies Used**
 </div>
 
+<div align="center">
+
 | Technology | Purpose |
 |------------|---------|
 | Python | Core programming language |
@@ -290,6 +292,7 @@ required for the response-matching system.
 | python-dotenv | Environment variable management |
 | GitHub | Repository hosting |
 | Discord API | Bot communication |
+</div>
 
 <div align="center">
 
