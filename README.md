@@ -26,7 +26,7 @@ The project is designed as a clean and beginner-friendly foundation for
 learning **Discord bot development, message handling, JSON data
 management, environment variables, and automation**.
 
-> **Response Policy:** Botix-S responds only to the questions for which predefined answers are saved in.
+> **Response Policy:** Botix-S responds only to the questions for which predefined answers are saved in `responses.json`.
 
 <div align="center">
 
