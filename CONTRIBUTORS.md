@@ -1,4 +1,7 @@
+<div align="center">
+
 ## 👩‍💻 Contributors of Botix-S
+</div>
 
 - Vaibhav - [vaibhsh17](https://github.com/vaibhsh17) • Project creater and Maintainer.
 
